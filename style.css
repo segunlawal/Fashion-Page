@@ -211,7 +211,7 @@ max-height:100%;
 }
 .spring-collection{
   background-color: #d9b1b3;
-  height: 98vh;
+  /* height: 98vh; */
   font-family: 'Playfair Display', serif;
   color:white;
 }
@@ -316,6 +316,9 @@ padding-top: 10px;
   justify-content: center;
   gap:15px;
   margin-top: 30px;
+}
+.pick{
+  padding-bottom:30px;
 }
 .addtocart{
   width: 200px;
