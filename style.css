@@ -3,9 +3,6 @@
   padding:0;
   box-sizing:border-box;
 }
-*{
-  /* border:1px solid red; */
-}
 body{
   font-family: 'open sans' sans-serif;
   font-size: 1.4rem;
@@ -55,6 +52,7 @@ body{
 position:absolute;
 padding-bottom: 590px;
 margin:auto;
+cursor: pointer;
 }
 .banner-heading{
   font-family: 'Playfair Display', serif;
@@ -105,6 +103,8 @@ margin:auto;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  cursor: pointer;
+
 }
 .gallery .gallery-img-1{
   background-image: url(img/gallery-1.jpeg);
@@ -137,7 +137,6 @@ margin:auto;
   font-size: 3.9rem;
   font-style: italic;
   font-weight: bold;
-  /* margin:auto; */
   text-align:center;
   margin-top: -75px;
 }
@@ -180,7 +179,6 @@ button{
 .article{
   display:flex;
   flex-direction: row;
-  /* width:90%; */
   padding:60px;
   gap: 50px;
   text-align: justify;
@@ -211,7 +209,6 @@ max-height:100%;
 }
 .spring-collection{
   background-color: #d9b1b3;
-  /* height: 98vh; */
   font-family: 'Playfair Display', serif;
   color:white;
 }
@@ -221,6 +218,7 @@ max-height:100%;
   justify-content: center;
   gap: 10px;
   padding-bottom: 30px;
+  cursor: pointer;
   /* align-items: center; */
 }
 .spring-gallery img{
@@ -243,7 +241,7 @@ height:auto;
 }
 .sneakers img{
 width:37%;
-
+object-fit:contain;
 }
 .sample-product{
   display:flex;
@@ -264,7 +262,6 @@ width:37%;
 }
 .last-section{
   display: flex;
-  /* height:48.0rem; */
   margin-top:100px;
   margin-bottom: 0;
 }
@@ -289,6 +286,7 @@ padding-top: 10px;
 .submit-button{
   width:110px;
   font-size:0.95rem;
+  cursor: pointer;
 }
 #vfg{
   font-family: 'Open Sans', sans-serif;
@@ -324,4 +322,6 @@ padding-top: 10px;
 .addtocart{
   width: 200px;
   font-size: 1rem;
+  cursor: pointer;
+
 }
